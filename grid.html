@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Without line "meta viewport" website responsive is not possible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grid Template for Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom.css">
+	<style>
+
+	</style> 
+  </head>
+
+<body> 
+
+  <section class="row">
+    <!--col-lg-4 laptop >= 992-->
+    <div class="col-lg-4">Box 1</div> 
+    <div class="col-lg-4">Box 2</div>
+    <div class="col-lg-4">Box 3</div>
+  </section>
+
+  <header class="row">
+    <!-- Each Class scales up :–  If you wish to set the same widths for md, lg and xl You simply need to specify for md -->
+    <!-- Header: Two unequal responsive columns starting at Tablets and scaling to xx-large desktops -->
+    <div class="col-md-4">Box 4</div>
+    <div class="col-md-8">Box 5</div>
+  </header>
+
+  <section class="row">
+    <!-- Section: One column on all screen sizes -->
+    <div class="col-12">Box 6</div>
+  </section>
+
+  <section class="row">
+    <!--  Four equal-width columns starting at Laptops resolution but only two columns in a row 
+          at Tablet resolution -->
+    <div class="col-lg-3 col-md-6">Box 7</div>
+    <div class="col-lg-3 col-md-6">Box 8</div>
+    <div class="col-lg-3 col-md-6">Box 9</div>
+    <div class="col-lg-3 col-md-6">Box 10</div>
+  </section>
+
+  <footer>
+    <!--  Footer: Two equal-width columns (50% each) on landscape phones and above resolution -->
+    <div class="col-sm-6">Box 11</div>
+    <div class="col-sm-6">Box 12</div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

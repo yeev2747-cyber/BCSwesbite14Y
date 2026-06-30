@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!--Global navigation -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-home"></i>Home</a
+                >
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link active dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  ><i class="fas fa-concierge-bell"></i> Services</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Menu 1</a></li>
+                  <li><a href="#" class="dropdown-item">Menu 2</a></li>
+                  <li><a href="#" class="dropdown-item">Menu 3</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a href="#" class="dropdown-item">Menu 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link disabled">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- row 1 -->
+      <header class="row">
+        <div class="col-lg-6 col-sm-5">
+          <a href="index.html">
+            <img
+              src="img/logo.png"
+              alt="Wisdom Pets. click for home."
+              class="img-fluid"
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-sm-7">
+          <img
+            src="img/animals.jpg"
+            alt=""
+            class="d-none d-md-block img-fluid"
+          />
+        </div>
+      </header>
+
+      <!-- row 2 -->
+      <div class="row">
+        <article class="col-lg-6 col-md-7">
+          <h1>Dog Photo Gallery</h1>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card bg-success">
+                <img src="img/dog1.jpg" alt="" class="img-fluid" />
+                <div class="card-footer">
+                  <p>
+                    Joe plays tug-o-war on the beach with Jasmine the Browny
+                    Dog.
+                  </p>
+                  <a
+                    href="#"
+                    class="stretched-link d-block fw-blod btn-outline-success"
+                    >Jasmine</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <img src="img/dog2.jpg" alt="" class="img-fluid" />
+              <div>
+                <p>
+                  Ninja Peter enjoys the sunshine with Lightning the Super Dog.
+                </p>
+                <a href="#">Lightning</a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <img src="img/dog3.jpg" alt="" class="img-fluid" />
+              <div>
+                <p>Ellen and Henry play in the park with Sally.</p>
+                <a href="#">Sally</a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <img src="img/dog4.jpg" alt="" class="img-fluid" />
+              <div>
+                <p>Julia, Dillon, and Scout watch morning cartoons.</p>
+                <a href="#">Dillon & Scout</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <aside class="col-lg-6 col-md-5">
+          <h3>Contact information</h3>
+
+          <p>
+            Contacting us is a breeze! Refer to this handy table for contact
+            information.
+          </p>
+
+          <iframe
+            src="page1.html"
+            frameborder="0"
+            width="100%"
+            height="250"
+            name="table-view"
+          >
+          </iframe>
+
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="page1.html" target="table-view">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="page2.html" target="table-view">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="page3.html" target="table-view">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="page2.html" target="table-view"
+                >Next</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <!-- end row 2 -->
+
+      <!-- row 4 -->
+      <footer class="row text-center">
+        <p>
+          <small>
+            This not a real veterinary medicine site, and is not meant to
+            diagnose or offer treatment. Please see your veterinarian for all
+            matters related to your pet's health.
+          </small>
+        </p>
+
+        <p>
+          <small>Wisdom Pet Medicine is a training brand</small>
+        </p>
+      </footer>
+    </div>
+    <!-- end container -->
+
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
